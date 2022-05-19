@@ -95,7 +95,7 @@
 #' @export
 #' 
 rm(list = ls())
-setwd()
+setwd("F:/IC/project/Sar-CoV2/code")
 
 SEIR <- function(S0, E0, I0, N, tau,
                     beta, X, rateE,

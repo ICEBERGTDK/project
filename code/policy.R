@@ -49,3 +49,4 @@ matplot(fit$time, fit[ , 2:4], type = "l", xlab = "Day", ylab = "Number of subje
 points(Day, Infected)
 legend("bottomright", c("Susceptibles", "exposed", "Infecteds", "Recovereds"), lty = 1, lwd = 2, col = col, inset = 0.05)
 title("Predicted Cases 2019-nCoV UK (worst case)", outer = TRUE, line = -2)
+
