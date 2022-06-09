@@ -1,4 +1,5 @@
 rm(list = ls())
+setwd("F:/IC/project/Sar-CoV2/code/")
 #install.packages("covidregionaldata")
 #library(covidregionaldata)
 library(dplyr)
